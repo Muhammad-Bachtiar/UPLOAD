@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.container input[type="submit"]{
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.file-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.file-list li {
+    margin: 10px 0;
+}
+
+.file-list a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 16px;
+    border-bottom: 1px solid #4CAF50;
+    padding: 5px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.file-list a:hover {
+    color: #45a049;
+    border-bottom: 1px solid #45a049;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+.message {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-back {
+    display: block;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 5px 10px;
+}
